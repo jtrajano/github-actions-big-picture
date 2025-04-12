@@ -9,6 +9,6 @@ jobs:
 
     steps: 
       - name: check out reposiory
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
       - run: echo "${cat hello_world.txt}"
     
